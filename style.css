@@ -1,0 +1,113 @@
+body {
+  padding: auto;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  background-color: #367;
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+  padding: 5px;
+}
+
+li {
+  float: right;
+}
+
+.lesft {
+  float: left;
+  background-color: white;
+  color: #367;
+  font-size: 20px;
+  margin-left: 10px;
+  border-radius: 20px 10px 30px 60px;
+  transition: all 0.4s ease;
+}
+li a {
+  display: block;
+  padding: 18px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+
+a:hover {
+  background-color: #111;
+  color: white;
+  margin-left: 30px;
+  font-weight: 900;
+  transform: scale(1.02);
+}
+
+h1 {
+  color: #367;
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.tabledesign {
+  border-collapse: collapse;
+  color: #2e86c1;
+  font-family: monospace;
+  font-size: 18px;
+  text-align: left;
+  background-color: #111;
+  width: 30%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.tabledesign td {
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.tabledesign tr:nth-child(even) {
+  background-color: #111;
+}
+
+input {
+  border-radius: 6px;
+  padding: 12px 20px;
+  width: 100%;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+p {
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submitbutton {
+  text-align: center;
+  float: center;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #367;
+  color: white;
+  width: 100%;
+  transition: all 0.4s ease;
+
+}
+
+.submitbutton:hover {
+  background-color: #111;
+  color: white;
+  transform: scale(1.02);
+}
