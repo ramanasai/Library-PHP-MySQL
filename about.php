@@ -49,6 +49,12 @@
             <h3>Phone:</h3>
             <p>+91 70193 87428</p>
         </div>
+        <div>
+            <!-- Copy Rights -->
+            <?php
+                echo "<p>&copy; 2022-" . date("Y") . " All Rights Reserved</p>";
+            ?>
+        </div>
     </div>
 </body>
 </html>
