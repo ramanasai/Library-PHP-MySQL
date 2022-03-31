@@ -21,6 +21,11 @@
             background-color: #f0f9f1;
             border-radius: 10px;
         }
+        .copyri{
+            padding: 10px;
+            background-color: #f0f9f1;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
@@ -52,7 +57,7 @@
         <div>
             <!-- Copy Rights -->
             <?php
-                echo "<p>&copy; 2022-" . date("Y") . " All Rights Reserved</p>";
+                echo "<p class='copyri'>&copy; 2022-" . date("Y") . " All Rights Reserved</p>";
             ?>
         </div>
     </div>
