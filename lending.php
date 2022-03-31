@@ -57,13 +57,18 @@
             $username = "sairamana";
             $password = "qX-t_66]sfP?E-$";
             $conn = new mysqli($servername, $username, $password, "library");
-            $sqllending = "CREATE TABLE lending (
-            card_no INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
-            book_id INT(6) UNSIGNED,
-            date_out TIMESTAMP,
-            due_date DATE,
-            FOREIGN KEY (book_id) REFERENCES book(book_id)
-            )";
+            // $sqllending = "CREATE TABLE lending (
+            // card_no INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+            // book_id INT(6) UNSIGNED,
+            // date_out TIMESTAMP,
+            // due_date DATE,
+            // FOREIGN KEY (book_id) REFERENCES book(book_id)
+            // )";
+            // if($conn->query($sqllending)=== TRUE){
+
+            // }else{
+
+            // }
         if($_POST){
             $card_no = $_POST['card_no'];
             $book_id = $_POST['book_id'];

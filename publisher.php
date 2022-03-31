@@ -58,14 +58,17 @@
             $username = "sairamana";
             $password = "qX-t_66]sfP?E-$";
             $conn = new mysqli($servername, $username, $password, "library");
-            $sqlpublisher = "CREATE TABLE publisher (
-            pub_id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
-            book_id INT(6) UNSIGNED,
-            publishar_name VARCHAR(30) NOT NULL,
-            Publisher_Address VARCHAR(50) NOT NULL,
-            Publisher_Phone VARCHAR(15) NOT NULL,
-            FOREIGN KEY (book_id) REFERENCES book(book_id)
-            )";
+            // $sqlpublisher = "CREATE TABLE publisher (
+            // pub_id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+            // book_id INT(6) UNSIGNED,
+            // publishar_name VARCHAR(30) NOT NULL,
+            // Publisher_Address VARCHAR(50) NOT NULL,
+            // Publisher_Phone VARCHAR(15) NOT NULL,
+            // FOREIGN KEY (book_id) REFERENCES book(book_id)
+            // )";
+            // if($conn->query($sqlpublisher)===TRUE){
+
+            // }
         if($_POST){
             $publisher_name = $_POST['publisher_name'];
             $book_id = $_POST['book_id'];

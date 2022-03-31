@@ -81,14 +81,21 @@
                 $username = "sairamana";
                 $password = "qX-t_66]sfP?E-$";
                 $conn = new mysqli($servername, $username, $password, "library");
-                $sqlbook = "CREATE TABLE book (
-                book_id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
-                title VARCHAR(30) NOT NULL,
-                author_name VARCHAR(30),
-                pub_year VARCHAR(30),
-                price VARCHAR(30),
-                quantity VARCHAR(30),
-                )";
+                // $sqlbook = "CREATE TABLE book (
+                // book_id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+                // title VARCHAR(30) NOT NULL,
+                // author_name VARCHAR(30),
+                // pub_year VARCHAR(30),
+                // price VARCHAR(30),
+                // quantity VARCHAR(30)
+                // )";
+
+                // if ($conn->query($sqlbook)===TRUE){
+                //     echo " ";
+                // }
+                // else{
+                //     echo " ";
+                // }
                 // $bookid = $bookname = $authorname = $publisheryear = "";
                 if($_POST){
                     $book_id = $_POST['book_id'];

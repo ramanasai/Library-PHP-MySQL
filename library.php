@@ -40,13 +40,13 @@
             }
 
             // Create database
-            // $sql = "CREATE DATABASE library";
-            // if ($conn->query($sql) === TRUE) {
-            //     echo "Database created successfully\n";
-            // } else {
-            //     echo "Error creating database: " . $conn->error;
-            // }
-            // $conn->close();
+            $sql = "CREATE DATABASE library";
+            if ($conn->query($sql) === TRUE) {
+                echo "Database created successfully\n";
+            } else {
+                echo "Error creating database: " . $conn->error;
+            }
+            $conn->close();
 
             $conn = new mysqli($servername, $username, $password, "library");
             if ($conn->connect_error) {
